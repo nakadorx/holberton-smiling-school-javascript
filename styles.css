@@ -1,0 +1,420 @@
+/** @format */
+
+:root {
+  --hero-title-familty-font: 'Source Sans Pro';
+  --hero-title-familty-font3: 'Coiny';
+  --hero-title-size: 120px;
+  --color-purple: #c271ff;
+  --color-white: white;
+  --font-learn: 32px;
+  --philip-size: 12px;
+  --color-black: #000;
+  --color-dark: #071629;
+  --color-green: #82d24f;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, O) !important;
+}
+.holberton_school-icon-menu {
+  color: var(--color-white);
+  font-size: 40px;
+}
+.navbar-toggler {
+  border: none;
+}
+.coursheader {
+  background-image: url('images/pic_3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+}
+.priheader {
+  background-image: url('images/pic_2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+}
+header {
+  background-image: url('images/pic_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+}
+@media (max-width: 990px) {
+  .navbar-brand {
+    margin: auto;
+  }
+  .logo {
+    margin: auto !important;
+  }
+
+  .navbar-nav {
+    margin-left: 50% !important;
+  }
+}
+
+.nav-link {
+  color: var(--color-white) !important;
+  font-family: var(--hero-title-familty-font);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12;
+  padding: 2rem !important;
+}
+.h-title {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 700;
+  color: var(--color-white);
+  font-size: var(--hero-title-size);
+  text-align: center;
+  padding-top: 20rem;
+}
+
+.h-subtitle > span {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 700;
+  color: var(--color-white);
+  font-size: 16;
+  text-align: center;
+  padding: 3rem;
+  padding-top: 1rem;
+}
+.registraion-btn {
+  background-color: var(--color-purple);
+  border-radius: 22px;
+  width: 162;
+  height: 44;
+  font-weight: 600;
+  color: white;
+  font-family: var(--hero-title-familty-font);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.h-learn {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 300;
+  color: var(--color-white);
+  font-size: 32px;
+  text-align: center;
+  padding-top: 5rem;
+}
+.h-learn > span {
+  color: var(--color-purple);
+  font-weight: 700;
+}
+.img-profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.profileCard {
+  color: var(--color-white);
+  font-family: var(--hero-title-familty-font);
+  text-align: center;
+}
+.ProfileCardName {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 900;
+}
+.profileCardSub {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+.ProfilesDiv {
+  margin-top: 3rem !important;
+
+  align-items: center;
+}
+/* part 2 */
+.section2 {
+  background-color: var(--color-purple);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: var(--color-white) !important;
+  margin-top: auto;
+}
+#carouselExampleControls {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.quote .s2Name .s2P2 {
+  font-family: var(--hero-title-familty-font);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.s2Name {
+  font-weight: 700;
+}
+.s2P2 {
+  font-style: italic;
+}
+.arrowslid {
+  height: 5rem;
+}
+/* part 3 */
+.section3 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.section3 > h3 {
+  font-family: var(--hero-title-familty-font);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  padding-bottom: 5rem;
+}
+.section3 > h3 > span {
+  font-weight: 700;
+  color: var(--color-purple);
+}
+.cardheader {
+  font-family: var(--hero-title-familty-font);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cardDescription {
+  font-size: 14px;
+  font-family: var(--hero-title-familty-font);
+  font-weight: 400;
+  color: gray;
+}
+.cardOwnerPic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+.cardOwnerName {
+  font-weight: 600;
+  font-family: var(--hero-title-familty-font);
+  font-size: 14px;
+  margin-left: 1rem;
+  color: var(--color-purple);
+}
+.starsRow {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.star {
+  height: 15px;
+  width: 15px;
+  margin-right: 0.5rem;
+}
+.cardDate {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 600;
+  color: var(--color-purple);
+  font-size: 14px;
+  margin-left: 6rem;
+}
+.playbtnImng {
+  height: 64px;
+  width: 64px;
+  position: absolute;
+  left: 7rem;
+  top: 4rem;
+}
+.card {
+  border: none !important;
+}
+/* part 4 */
+.section4 {
+  background-color: var(--color-dark);
+
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.s4CardIcon {
+  width: 42px;
+  margin-top: 5rem;
+}
+.s4CardTitle {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 600;
+  font-size: 18;
+  color: var(--color-white);
+  text-align: center;
+  margin-top: 2rem;
+}
+.s4CardDesc {
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--hero-title-familty-font);
+  font-weight: 400;
+  font-size: 14px;
+}
+.section4 > h3 {
+  font-family: var(--hero-title-familty-font);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  padding-bottom: 5rem;
+  color: var(--color-white);
+}
+.section4 > h3 > span {
+  font-weight: 700;
+  color: var(--color-purple);
+}
+.s4bntCard {
+  justify-items: center;
+}
+.btns4 {
+  margin-top: 4rem;
+}
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: var(--color-dark) !important;
+}
+.footer-icon {
+  font-size: 30px;
+  color: white;
+}
+.copyright {
+  margin-top: 2rem;
+  font-family: var(--hero-title-familty-font);
+  color: gray;
+  font-size: 12;
+  text-align: center;
+}
+/* 0 pricing */
+.whatIs {
+  font-family: var(--hero-title-familty-font);
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 32px;
+}
+.divWutis {
+  margin-top: 5rem;
+}
+.phtitle {
+  padding-top: 3rem !important;
+}
+.activeMenulink {
+  color: var(--color-purple) !important;
+}
+.price {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 700;
+  font-size: 44px;
+  color: white;
+}
+.tranche {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 400;
+  font-size: 12px;
+  color: gray;
+}
+.pricediv {
+  text-align: center;
+}
+
+.table-text {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+.tRow {
+  margin-top: 2rem;
+  border-bottom: 1px solid gray;
+  padding-bottom: 2rem;
+}
+.holberton_school-icon-check {
+  color: green;
+  font-size: 28px;
+}
+.signal {
+  height: 35px;
+  width: 88px;
+}
+.FAQ {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.faqtitle {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 300;
+  font-size: 60px;
+  text-align: center;
+}
+
+.paraghead {
+  font-family: var(--hero-title-familty-font);
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.parags {
+  margin-top: 5rem !important;
+}
+.paragdesc {
+  font-family: var(--hero-title-familty-font);
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+}
+.coiny {
+  text-align: center;
+  font-family: var(--hero-title-familty-font3);
+  font-weight: 400;
+  font-size: 32;
+  color: var(--color-white);
+}
+.coiny > span {
+  color: var(--color-purple);
+}
+.form-control,
+.input-group,
+.input-group-text,
+.input-group-prepend {
+  border-radius: 0;
+  border: none !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: none;
+}
+.label {
+  margin-top: 2rem;
+  font-size: 12;
+  font-weight: 700;
+  font-family: var(--hero-title-familty-font);
+}
+.form-control::placeholder,
+.holberton_school-icon-search_1 {
+  color: white !important;
+}
+#dropdownMenuButton {
+  border-radius: 0;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #c271ff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
